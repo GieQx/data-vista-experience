@@ -26,7 +26,7 @@ const Networking = () => {
       </section>
       
       {/* Networking Benefits */}
-      <section className="py-16 bg-white">
+      <section className="py-02 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">Why Network at NCS 2025?</h2>
@@ -82,7 +82,7 @@ const Networking = () => {
       </section>
       
       {/* Networking Events */}
-      <section className="py-16 bg-stats-light">
+      <section className="py-02 bg-stats-light">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">Networking Events</h2>
@@ -98,7 +98,7 @@ const Networking = () => {
                 <h3 className="text-xl font-semibold">Welcome Reception</h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                October 15, 2025 | 6:30 PM - 8:30 PM | Grand Ballroom
+                October 01, 2025 | 6:30 PM - 8:30 PM | Grand Ballroom
               </p>
               <p className="mb-6">
                 Kick off the convention with our welcome reception. Enjoy refreshments while meeting fellow attendees in a relaxed atmosphere.
@@ -112,7 +112,7 @@ const Networking = () => {
                 <h3 className="text-xl font-semibold">International Networking Lunch</h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                October 16, 2025 | 12:00 PM - 1:30 PM | Terrace Garden
+                October 02, 2025 | 12:00 PM - 1:30 PM | Terrace Garden
               </p>
               <p className="mb-6">
                 Connect with international participants and foster global collaborations over a delightful lunch experience.
@@ -126,7 +126,7 @@ const Networking = () => {
                 <h3 className="text-xl font-semibold">Special Interest Group Meetups</h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                October 16-17, 2025 | Various Times | Meeting Rooms
+                October 02-03, 2025 | Various Times | Meeting Rooms
               </p>
               <p className="mb-6">
                 Join topic-focused meetups based on your interests. Engage in deep discussions with others who share your professional passions.
@@ -140,7 +140,7 @@ const Networking = () => {
                 <h3 className="text-xl font-semibold">Closing Networking Reception</h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                October 17, 2025 | 5:00 PM - 7:00 PM | Rooftop Lounge
+                October 03, 2025 | 5:00 PM - 7:00 PM | Rooftop Lounge
               </p>
               <p className="mb-6">
                 Conclude the convention with a farewell reception. Exchange contact information and solidify the connections you've made.
@@ -152,7 +152,7 @@ const Networking = () => {
       </section>
       
       {/* Attendee Directory */}
-      <section className="py-16 bg-white">
+      <section className="py-02 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">Attendee Directory</h2>
@@ -228,7 +228,7 @@ const Networking = () => {
       </section>
       
       {/* Networking Tips */}
-      <section className="py-16 bg-stats-light">
+      <section className="py-02 bg-stats-light">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -262,7 +262,7 @@ const Networking = () => {
             </div>
             
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" 
+              <img src="https://images.unsplash.com/photo-0129002069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" 
                    alt="Networking event" 
                    className="w-full h-auto" />
             </div>
@@ -271,7 +271,7 @@ const Networking = () => {
       </section>
       
       {/* Contact Form */}
-      <section className="py-16 bg-white">
+      <section className="py-02 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-12">
