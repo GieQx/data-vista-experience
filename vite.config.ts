@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: "/data-vista-experience",
   plugins: [
     react(),
     mode === 'development' &&
