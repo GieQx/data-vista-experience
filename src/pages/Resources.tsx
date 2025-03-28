@@ -112,7 +112,7 @@ const Resources = () => {
                     <div className="flex justify-between items-start">
                       <div>
                         <h3 className="font-semibold">Statistical Methodologies for Sustainable Development</h3>
-                        <p className="text-sm text-muted-foreground mb-2">Published: January 2025</p>
+                        <p className="text-sm text-muted-foreground mb-2">Published: March 2025</p>
                         <p className="text-sm mb-4">A comprehensive guide to statistical approaches for measuring and tracking sustainable development goals.</p>
                       </div>
                       <Button size="sm" variant="ghost" className="text-stats-blue">
