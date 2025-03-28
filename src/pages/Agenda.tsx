@@ -57,7 +57,7 @@ const Agenda = () => {
             <div className="bg-stats-light p-6 rounded-lg">
               <div className="flex items-center mb-4">
                 <Calendar className="text-stats-blue mr-3" />
-                <h3 className="text-xl font-semibold">Day 1: October 15</h3>
+                <h3 className="text-xl font-semibold">Day 1: 01 October 2025</h3>
               </div>
               <p className="text-muted-foreground mb-3">Opening Ceremony & Keynotes</p>
               <ul className="space-y-2">
@@ -91,7 +91,7 @@ const Agenda = () => {
             <div className="bg-stats-light p-6 rounded-lg">
               <div className="flex items-center mb-4">
                 <Calendar className="text-stats-teal mr-3" />
-                <h3 className="text-xl font-semibold">Day 2: October 16</h3>
+                <h3 className="text-xl font-semibold">Day 2: 02 October 2025</h3>
               </div>
               <p className="text-muted-foreground mb-3">Technical Sessions & Workshops</p>
               <ul className="space-y-2">
@@ -125,7 +125,7 @@ const Agenda = () => {
             <div className="bg-stats-light p-6 rounded-lg">
               <div className="flex items-center mb-4">
                 <Calendar className="text-stats-green mr-3" />
-                <h3 className="text-xl font-semibold">Day 3: October 17</h3>
+                <h3 className="text-xl font-semibold">Day 3: 03 October 2025</h3>
               </div>
               <p className="text-muted-foreground mb-3">Specialized Tracks & Closing</p>
               <ul className="space-y-2">

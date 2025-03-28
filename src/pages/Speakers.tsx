@@ -8,45 +8,45 @@ const Speakers = () => {
   // Sample data for speakers
   const keynoteSpeakers = [
     {
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Juana dela Cruz",
       title: "Chief Statistician",
       organization: "National Statistics Office",
       bio: "Leading expert in national statistical systems with over 20 years of experience in developing statistical methodologies.",
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
+      image: "https://randomuser.me/api/portraits/women/01.jpg",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Prof. Michael Chen",
+      name: "Prof. Michael Santos",
       title: "Director",
       organization: "International Data Science Institute",
       bio: "Pioneering researcher in integrating AI with traditional statistical methods to enhance data analysis capabilities.",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      image: "https://randomuser.me/api/portraits/men/02.jpg",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Dr. Emily Zhang",
+      name: "Dr. Emily Reyes",
       title: "Head of Data Visualization",
       organization: "Global Analytics Corporation",
       bio: "Award-winning data visualization expert who transforms complex statistical information into compelling visual narratives.",
-      image: "https://randomuser.me/api/portraits/women/68.jpg",
+      image: "https://randomuser.me/api/portraits/women/03.jpg",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Dr. Robert Taylor",
+      name: "Dr. Robert Garcia",
       title: "AI Research Lead",
       organization: "Tech Innovation Labs",
       bio: "Leading authority on artificial intelligence applications in statistical analysis and predictive modeling.",
-      image: "https://randomuser.me/api/portraits/men/46.jpg",
+      image: "https://randomuser.me/api/portraits/men/04.jpg",
       linkedin: "#"
     }
   ];
   
   const panelSpeakers = [
     {
-      name: "Dr. James Wilson",
+      name: "Dr. James Perez",
       title: "Senior Economist",
       organization: "Central Bank",
       bio: "Expert in econometric modeling and forecasting with a focus on policy implications for sustainable development.",
@@ -64,7 +64,7 @@ const Speakers = () => {
       twitter: "#"
     },
     {
-      name: "Prof. David Kim",
+      name: "Prof. David Aquino",
       title: "Professor of Statistics",
       organization: "Stanford University",
       bio: "Renowned educator and researcher in statistical theory with contributions to experimental design and analysis.",
@@ -73,7 +73,7 @@ const Speakers = () => {
       twitter: "#"
     },
     {
-      name: "Dr. Lisa Johnson",
+      name: "Dr. Lisa Martin",
       title: "Chief Data Officer",
       organization: "National Research Council",
       bio: "Pioneer in developing data governance frameworks for large-scale statistical operations and open data initiatives.",
@@ -85,7 +85,7 @@ const Speakers = () => {
   
   const workshopLeaders = [
     {
-      name: "Dr. Thomas Lee",
+      name: "Dr. Thomas",
       title: "Machine Learning Specialist",
       organization: "DataTech Solutions",
       bio: "Expert in applying machine learning techniques to statistical problems and developing predictive models.",
@@ -94,16 +94,16 @@ const Speakers = () => {
       twitter: "#"
     },
     {
-      name: "Dr. Sophia Chen",
+      name: "Dr. Chen",
       title: "Biostatistician",
       organization: "Health Research Institute",
       bio: "Specializes in statistical methods for clinical trials and health data analysis.",
-      image: "https://randomuser.me/api/portraits/women/54.jpg",
+      image: "https://randomuser.me/api/portraits/men/54.jpg",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Prof. Mark Williams",
+      name: "Prof. Mark Dan Navarro",
       title: "Environmental Statistician",
       organization: "Climate Research Center",
       bio: "Focuses on statistical modeling of environmental data and climate change analysis.",
@@ -112,7 +112,7 @@ const Speakers = () => {
       twitter: "#"
     },
     {
-      name: "Dr. Jennifer Adams",
+      name: "Dr. Jennifer Lopez",
       title: "Statistical Software Developer",
       organization: "Statistical Tools Inc.",
       bio: "Develops innovative statistical software tools and packages for data scientists and researchers.",
@@ -223,7 +223,7 @@ const Speakers = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-stats-blue mr-2">•</span>
-                  <span>Submission deadline: March 15, 2025</span>
+                  <span>Submission deadline: August 15, 2025</span>
                 </li>
               </ul>
               <button className="bg-stats-blue text-white font-medium py-2 px-6 rounded-md hover:bg-stats-blue/90 transition">

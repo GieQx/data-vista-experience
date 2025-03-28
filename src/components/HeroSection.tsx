@@ -8,16 +8,10 @@ export function HeroSection() {
     <div className="relative overflow-hidden min-h-[90vh] flex items-center">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline
-          className="object-cover w-full h-full brightness-50"
-        >
-          <source src="https://cdn.pixabay.com/vimeo/742829057/191654.mp4?width=1280&hash=f5feacf9c45eb4261246e8c9dd8c89fd4d59693d" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <video autoplay muted loop playsinline>
+    <source src="https://videos.pexels.com/video-files/27946985/12269404_2320_1080_30fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
       </div>
       
       {/* Animated background elements */}
@@ -54,7 +48,7 @@ export function HeroSection() {
           </div>
           
           <p className="text-sm md:text-base mb-6 text-white">
-            October 15-17, 2025 • National Convention Center
+            October 01-03, 2025 • National Convention Center
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">

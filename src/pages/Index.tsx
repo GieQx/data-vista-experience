@@ -18,38 +18,38 @@ const Index = () => {
   // Sample data for featured speakers
   const speakers = [
     {
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Juana dela Cruz",
       title: "Chief Statistician",
       organization: "National Statistics Office",
       bio: "Leading expert in national statistical systems with over 20 years of experience in developing statistical methodologies.",
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
+      image: "https://randomuser.me/api/portraits/women/01.jpg",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Prof. Michael Chen",
+      name: "Prof. Michael Santos",
       title: "Director",
       organization: "International Data Science Institute",
       bio: "Pioneering researcher in integrating AI with traditional statistical methods to enhance data analysis capabilities.",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      image: "https://randomuser.me/api/portraits/men/02.jpg",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Dr. Emily Zhang",
+      name: "Dr. Emily Reyes",
       title: "Head of Data Visualization",
       organization: "Global Analytics Corporation",
       bio: "Award-winning data visualization expert who transforms complex statistical information into compelling visual narratives.",
-      image: "https://randomuser.me/api/portraits/women/68.jpg",
+      image: "https://randomuser.me/api/portraits/women/03.jpg",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Dr. Robert Taylor",
+      name: "Dr. Robert Garcia",
       title: "AI Research Lead",
       organization: "Tech Innovation Labs",
       bio: "Leading authority on artificial intelligence applications in statistical analysis and predictive modeling.",
-      image: "https://randomuser.me/api/portraits/men/46.jpg",
+      image: "https://randomuser.me/api/portraits/men/04.jpg",
       linkedin: "#"
     }
   ];
@@ -129,13 +129,13 @@ const Index = () => {
                   <div className="h-10 w-10 rounded-full bg-stats-blue/10 flex items-center justify-center text-stats-blue">
                     <Globe size={20} />
                   </div>
-                  <span className="font-medium">50+ Countries</span>
+                  <span className="font-medium">50+ Schools/Agencies</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="h-10 w-10 rounded-full bg-stats-aqua/10 flex items-center justify-center text-stats-aqua">
                     <Award size={20} />
                   </div>
-                  <span className="font-medium">100+ Speakers</span>
+                  <span className="font-medium">20+ Speakers</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="h-10 w-10 rounded-full bg-stats-green/10 flex items-center justify-center text-stats-green">
