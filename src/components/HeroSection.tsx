@@ -8,10 +8,10 @@ export function HeroSection() {
     <div className="relative overflow-hidden min-h-[90vh] flex items-center">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        <video autoplay muted loop playsinline>
+        <video className="w-full h-full object-cover" autoPlay loop muted playsInline>
     <source src="https://videos.pexels.com/video-files/27946985/12269404_2320_1080_30fps.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+    Your browser does not support the video tag.</source>
+        </video>
       </div>
       
       {/* Animated background elements */}
