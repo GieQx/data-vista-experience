@@ -68,11 +68,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				stats: {
-					'blue': '#0A2342',
-					'teal': '#126E82',
-					'aqua': '#38A3A5',
-					'green': '#57CC99',
-					'light': '#F2F2F2',
+					'blue': '#0A97D9', // SDG 6 - Clean Water
+					'teal': '#26BDE2', // SDG 14 - Life Below Water
+					'aqua': '#56C02B', // SDG 13 - Climate Action
+					'green': '#4C9F38', // SDG 15 - Life on Land
+					'light': '#F1F1F1',
+					'red': '#E5243B',   // SDG 1 - No Poverty
+					'orange': '#F36D25', // SDG 2 - Zero Hunger
+					'yellow': '#FCC30B', // SDG 3 - Good Health
 				}
 			},
 			borderRadius: {

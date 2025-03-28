@@ -2,13 +2,18 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const isActive = (path: string) => {
+    return location.pathname === path;
   };
 
   return (
@@ -26,24 +31,29 @@ export function Navbar() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="font-medium hover:text-stats-teal transition-colors">
+            <Link to="/" className={`font-medium hover:text-stats-blue transition-colors ${isActive('/') ? 'text-stats-blue' : ''}`}>
               Home
             </Link>
-            <Link to="/about" className="font-medium hover:text-stats-teal transition-colors">
+            <Link to="/about" className={`font-medium hover:text-stats-blue transition-colors ${isActive('/about') ? 'text-stats-blue' : ''}`}>
               About
             </Link>
-            <Link to="/speakers" className="font-medium hover:text-stats-teal transition-colors">
+            <Link to="/speakers" className={`font-medium hover:text-stats-blue transition-colors ${isActive('/speakers') ? 'text-stats-blue' : ''}`}>
               Speakers
             </Link>
-            <Link to="/agenda" className="font-medium hover:text-stats-teal transition-colors">
+            <Link to="/agenda" className={`font-medium hover:text-stats-blue transition-colors ${isActive('/agenda') ? 'text-stats-blue' : ''}`}>
               Agenda
             </Link>
-            <Link to="/resources" className="font-medium hover:text-stats-teal transition-colors">
+            <Link to="/resources" className={`font-medium hover:text-stats-blue transition-colors ${isActive('/resources') ? 'text-stats-blue' : ''}`}>
               Resources
             </Link>
-            <Button className="bg-stats-teal text-white hover:bg-stats-blue">
-              Register Now
-            </Button>
+            <Link to="/networking" className={`font-medium hover:text-stats-blue transition-colors ${isActive('/networking') ? 'text-stats-blue' : ''}`}>
+              Networking
+            </Link>
+            <Link to="/register">
+              <Button className="bg-stats-red text-white hover:bg-stats-orange">
+                Register Now
+              </Button>
+            </Link>
           </div>
           
           {/* Mobile menu button */}
@@ -60,42 +70,54 @@ export function Navbar() {
             <div className="flex flex-col space-y-4">
               <Link 
                 to="/" 
-                className="px-4 py-2 font-medium hover:bg-stats-light rounded-md"
+                className={`px-4 py-2 font-medium hover:bg-stats-light rounded-md ${isActive('/') ? 'bg-stats-light text-stats-blue' : ''}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 to="/about" 
-                className="px-4 py-2 font-medium hover:bg-stats-light rounded-md"
+                className={`px-4 py-2 font-medium hover:bg-stats-light rounded-md ${isActive('/about') ? 'bg-stats-light text-stats-blue' : ''}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link 
                 to="/speakers" 
-                className="px-4 py-2 font-medium hover:bg-stats-light rounded-md"
+                className={`px-4 py-2 font-medium hover:bg-stats-light rounded-md ${isActive('/speakers') ? 'bg-stats-light text-stats-blue' : ''}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Speakers
               </Link>
               <Link 
                 to="/agenda" 
-                className="px-4 py-2 font-medium hover:bg-stats-light rounded-md"
+                className={`px-4 py-2 font-medium hover:bg-stats-light rounded-md ${isActive('/agenda') ? 'bg-stats-light text-stats-blue' : ''}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Agenda
               </Link>
               <Link 
                 to="/resources" 
-                className="px-4 py-2 font-medium hover:bg-stats-light rounded-md"
+                className={`px-4 py-2 font-medium hover:bg-stats-light rounded-md ${isActive('/resources') ? 'bg-stats-light text-stats-blue' : ''}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Resources
               </Link>
-              <Button className="bg-stats-teal text-white hover:bg-stats-blue w-full">
-                Register Now
-              </Button>
+              <Link 
+                to="/networking" 
+                className={`px-4 py-2 font-medium hover:bg-stats-light rounded-md ${isActive('/networking') ? 'bg-stats-light text-stats-blue' : ''}`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Networking
+              </Link>
+              <Link 
+                to="/register" 
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <Button className="bg-stats-red text-white hover:bg-stats-orange w-full">
+                  Register Now
+                </Button>
+              </Link>
             </div>
           </div>
         )}
