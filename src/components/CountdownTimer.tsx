@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 // Set the event date - October 15, 2025 at 9:00 AM
-const EVENT_DATE = new Date('2025-10-15T09:00:00').getTime();
+const EVENT_DATE = new Date('2025-10-01T08:00:00').getTime();
 
 type TimeLeft = {
   days: number;
